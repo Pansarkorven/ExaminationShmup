@@ -1,0 +1,1535 @@
+fileFormatVersion: 2
+guid: a3b88012776843c43b9245fc78ca5d4c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 228
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d738ca4921b795446a20636be298439a
+      internalID: -1703137029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 228
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff74b0055e31f704baaa77234959c326
+      internalID: 525401253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 227
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0bbc12152c092418463994770f4178
+      internalID: -1754926702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 227
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3c33a5d3b66ff479fe1e4e0324b140
+      internalID: 647678209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 227
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba359d7934db4a1498dd265a27c6ad8a
+      internalID: 1515051139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 227
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a79b33817a1c34d8ef5c29cc45470c
+      internalID: 1402297393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 225
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f26e0c838cd8645b89d72c8179d898
+      internalID: 1905753992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 225
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e250945f7919b54b9fb95313ca5084e
+      internalID: -1438153376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 196
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da4e2f86639ba44999cf196914ed1a
+      internalID: -826856942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 196
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf9bf7bce93a184f93c2b257a64d119
+      internalID: -1599442119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 195
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ff8f86a8ffe29428a073ab9fac0e9b
+      internalID: -1579711448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 196
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0baa354489bab469e446405aae4742
+      internalID: 1567208735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 197
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f22b81f6959f114a833a140e5d3bc86
+      internalID: 1124424073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 197
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eaff5b27148784c8765e3ac3d02d74
+      internalID: -934778630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 193
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a122df9dc7d1ee49aa8acc337884c69
+      internalID: 1626915027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 193
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa35aad15f8f4f64b9fb71ef99390543
+      internalID: -958326952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 163
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778cc17463285ab429a6e8dfa4c05ee4
+      internalID: 1485653189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 168
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e441b059f2ce9fe4da82730165248908
+      internalID: 1401381982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 163
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91e95e7d1babc44899cebcf0b817511
+      internalID: 367854801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8541911678d145746a0ff32910160dd0
+      internalID: -2035915952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7af7c4a0ecb5ad4c9b44510e40f3eab
+      internalID: -977886613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 164
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298b3aa7c6afcb74c8131e08379d00a6
+      internalID: -1820058199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 161
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1178dd69836ef49ad042ea2e867ac8
+      internalID: 194025088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 163
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afb678023b375248874c25e92859683
+      internalID: -252320697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fe10ea532ef104ebe2b3759039a2ea
+      internalID: -1192344362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 132
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274612a37dc9ee147af62a704dc0a402
+      internalID: -776639470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 129
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258c38fd0f3b7d44cbd2ba9545395c80
+      internalID: 435249026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 130
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b084be7b302fd2746b907bfca3cb8636
+      internalID: 1443181848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 130
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a3b5655416f6e469a131975b9fd7f6
+      internalID: -254780918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 133
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17fa2ba9d0907c41af0475378074601
+      internalID: 94895447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 129
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4540d909ac3b4fe49b3d21c014c24e76
+      internalID: 224329602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 145
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a992bc69de2d0564c90c068f576678c7
+      internalID: 735512726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f1083b7ccc80e4c834064a45bd5caf
+      internalID: 2025399921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 98
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9234eb4eb1e0248bf88c1cdfc6b14d
+      internalID: -405664899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 97
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2d02d340c092b47aea961534e6c206
+      internalID: 457356527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 98
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ead2f5b72d9fd046a927c1138547fae
+      internalID: 1821224770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 100
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849ed7105ed89d84ba282023cd5cbaf3
+      internalID: -1470544122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 98
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e0534398936c343a59702ae7f93b80
+      internalID: 681767139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 97
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eb3f53e30719c4b9048fec0559fa59
+      internalID: 1481283504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 100
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d360742ef89c7aa4da30d6152f0c2fb6
+      internalID: 955389285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc24faeff2182147b2019b2f221eefa
+      internalID: -2143671805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 66
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf7d9ad4f65e342bbc1d2b74580539
+      internalID: -754108950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 65
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3435c60286e6b2e4991ffd122c125e1a
+      internalID: -1064110512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 66
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cdf6680c709174dadb255747dab19c
+      internalID: -632494366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 66
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3239428740d3ce34b93b089476a0af4c
+      internalID: -2088993237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 66
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee62710f1d988642be1029b255a2b61
+      internalID: 8379729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 68
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fe93adc502030488605dacf97855c7
+      internalID: -1173469572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 68
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd8f0a49edc9cc49bfb42c0a4730331
+      internalID: 2138420516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1a34ce21072dd4eb1a741ae0a3222b
+      internalID: -847706624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72ea481d0b78db41b0d46c7946a5504
+      internalID: -1953808753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 35
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061abee51402a9c42851f4957486a7b6
+      internalID: 262535076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100239184c634de47b9308e096f9c899
+      internalID: -516803085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 33
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cca3bf4b100e674a9fb9e56c70668b3
+      internalID: -809088745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 34
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf24f82e93d1cfb4a9037ec35d6f65b1
+      internalID: 327649553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 31
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfce6a91f90072042a11db21bd117ef4
+      internalID: 1538866762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 42
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c071311e6f13745b4c70ec4130149f
+      internalID: 1232022917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837adcd66d40e8e41af7887b6bc7de7b
+      internalID: -650963939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19033e2a7fd5e6247863fdc2c8f8b86e
+      internalID: -678878099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4329f2dbd97cc488172e791a4b750d
+      internalID: -1060339977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108ad9798b28d9746815829bc8a5a14c
+      internalID: 675991879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1382bf1399b95f4cb136fd33fe512e1
+      internalID: -843886534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823547c11aac6ef4da364fc044b9b359
+      internalID: -125783012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2a8e503c3db284dab3cd9bc4fc62b8
+      internalID: 1871590433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shmup Player Enemy Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27513f1deb2cfb24b90d63e2440217ad
+      internalID: -1747884361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Shmup Player Enemy Sprites_0: -1703137029
+      Shmup Player Enemy Sprites_1: 525401253
+      Shmup Player Enemy Sprites_10: -1579711448
+      Shmup Player Enemy Sprites_11: 1567208735
+      Shmup Player Enemy Sprites_12: 1124424073
+      Shmup Player Enemy Sprites_13: -934778630
+      Shmup Player Enemy Sprites_14: 1626915027
+      Shmup Player Enemy Sprites_15: -958326952
+      Shmup Player Enemy Sprites_16: 1485653189
+      Shmup Player Enemy Sprites_17: 1401381982
+      Shmup Player Enemy Sprites_18: 367854801
+      Shmup Player Enemy Sprites_19: -2035915952
+      Shmup Player Enemy Sprites_2: -1754926702
+      Shmup Player Enemy Sprites_20: -977886613
+      Shmup Player Enemy Sprites_21: -1820058199
+      Shmup Player Enemy Sprites_22: 194025088
+      Shmup Player Enemy Sprites_23: -252320697
+      Shmup Player Enemy Sprites_24: -1192344362
+      Shmup Player Enemy Sprites_25: -776639470
+      Shmup Player Enemy Sprites_26: 435249026
+      Shmup Player Enemy Sprites_27: 1443181848
+      Shmup Player Enemy Sprites_28: -254780918
+      Shmup Player Enemy Sprites_29: 94895447
+      Shmup Player Enemy Sprites_3: 647678209
+      Shmup Player Enemy Sprites_30: 224329602
+      Shmup Player Enemy Sprites_31: 735512726
+      Shmup Player Enemy Sprites_32: 2025399921
+      Shmup Player Enemy Sprites_33: -405664899
+      Shmup Player Enemy Sprites_34: 457356527
+      Shmup Player Enemy Sprites_35: 1821224770
+      Shmup Player Enemy Sprites_36: -1470544122
+      Shmup Player Enemy Sprites_37: 681767139
+      Shmup Player Enemy Sprites_38: 1481283504
+      Shmup Player Enemy Sprites_39: 955389285
+      Shmup Player Enemy Sprites_4: 1515051139
+      Shmup Player Enemy Sprites_40: -2143671805
+      Shmup Player Enemy Sprites_41: -754108950
+      Shmup Player Enemy Sprites_42: -1064110512
+      Shmup Player Enemy Sprites_43: -632494366
+      Shmup Player Enemy Sprites_44: -2088993237
+      Shmup Player Enemy Sprites_45: 8379729
+      Shmup Player Enemy Sprites_46: -1173469572
+      Shmup Player Enemy Sprites_47: 2138420516
+      Shmup Player Enemy Sprites_48: -847706624
+      Shmup Player Enemy Sprites_49: -1953808753
+      Shmup Player Enemy Sprites_5: 1402297393
+      Shmup Player Enemy Sprites_50: 262535076
+      Shmup Player Enemy Sprites_51: -516803085
+      Shmup Player Enemy Sprites_52: -809088745
+      Shmup Player Enemy Sprites_53: 327649553
+      Shmup Player Enemy Sprites_54: 1538866762
+      Shmup Player Enemy Sprites_55: 1232022917
+      Shmup Player Enemy Sprites_56: -650963939
+      Shmup Player Enemy Sprites_57: -678878099
+      Shmup Player Enemy Sprites_58: -1060339977
+      Shmup Player Enemy Sprites_59: 675991879
+      Shmup Player Enemy Sprites_6: 1905753992
+      Shmup Player Enemy Sprites_60: -843886534
+      Shmup Player Enemy Sprites_61: -125783012
+      Shmup Player Enemy Sprites_62: 1871590433
+      Shmup Player Enemy Sprites_63: -1747884361
+      Shmup Player Enemy Sprites_7: -1438153376
+      Shmup Player Enemy Sprites_8: -826856942
+      Shmup Player Enemy Sprites_9: -1599442119
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
