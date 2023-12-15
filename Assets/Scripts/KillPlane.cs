@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class KillPlane : MonoBehaviour
 {
-   
     public int DamageAmount = 1;
-    private void OnTriggerEnter2D(Collider2D other)
+    private GameManager gameManager;
+
+    void Start()
     {
-         if (other.CompareTag("Enemy"))
+        // Find the GameManager in the scene
+        gameManager = FindObjectOfType<GameManager>();
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
         {
+            // Destroy the enemy
             Destroy(other.gameObject);
-            
-            other.GetComponent<PlayerController>().TakeDamage(DamageAmount);
+
+            // Remove health from the GameManager
+            gameManager.PlayerTakeDamage(DamageAmount);
         }
     }
 }
