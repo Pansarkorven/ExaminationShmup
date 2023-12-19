@@ -6,7 +6,14 @@ public class GameManager : MonoBehaviour
 {
     private int playerHealth = 10;
     private int playerScore = 0;
+    private bool WaveisDone = false;
 
+
+    private void Start()
+    {
+        // Subscribe to the WavesCompleted event
+        FindObjectOfType<WaveManager>().WavesCompleted += OnWavesCompleted;
+    }
     public void PlayerTakeDamage(int damageAmount)
     {
         playerHealth -= damageAmount;
@@ -39,5 +46,18 @@ public class GameManager : MonoBehaviour
     public int GetPlayerScore()
     {
         return playerScore;
+    }
+
+    private void OnWavesCompleted()
+    {
+        Debug.Log("Waves are completed! Do something here...");
+        // Add your logic here to change a value or perform other actions
+        WaveisDone = true;
+    }
+
+    public bool AreNoObjectsWithTagAlive(string tag)
+    {
+        GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
+        return objectsWithTag.Length == 0;
     }
 }
