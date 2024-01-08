@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour
         // Check if there are no objects with the "Enemy" tag alive
         bool areNoEnemiesAlive = gameManager.AreNoObjectsWithTagAlive("Enemy");
 
-        if (gameManager.AreNoObjectsWithTagAlive("Enemy") && IsWaveDone)
+        if (IsWaveDone)
         {
             // Execute this block of code when both conditions are true
             Debug.Log("u have won congrats");

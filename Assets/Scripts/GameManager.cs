@@ -1,18 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private int playerHealth = 10;
+    private int playerHealth = 5;
     private int playerScore = 0;
     private bool WaveisDone = false;
+  
+    
+    
 
 
     private void Start()
     {
         // Subscribe to the WavesCompleted event
         FindObjectOfType<WaveManager>().WavesCompleted += OnWavesCompleted;
+        Debug.Log("HardcoreMode setting: " + PlayerPrefs.GetInt("HardcoreMode", 0));
+
+        if (PlayerPrefs.GetInt("HardcoreMode", 0) == 1)
+        {
+            playerHealth = 1;
+        }
+        else
+        {
+            playerHealth = 5;
+        }
     }
     public void PlayerTakeDamage(int damageAmount)
     {
@@ -22,7 +36,14 @@ public class GameManager : MonoBehaviour
         if (playerHealth <= 0)
         {
             // Call a method for player death or other game over logic
-            PlayerDied();
+            if (PlayerPrefs.GetInt("HardcoreMode", 1) == 0)
+            {
+                SceneManager.LoadScene("DeathScene");
+            }
+            else
+            {
+                SceneManager.LoadScene("DeathSceneHard");
+            }
         }
     }
 
@@ -30,12 +51,21 @@ public class GameManager : MonoBehaviour
     {
         playerScore += points;
         Debug.Log("Player score: " + playerScore);
+
     }
 
     void PlayerDied()
     {
         Debug.Log("Player has died!");
-        // Implement game over logic, e.g., restart the level, show game over screen, etc.
+        if (PlayerPrefs.GetInt("HardcoreMode", 0) == 1)
+        {
+            SceneManager.LoadScene("DeathScene");
+        }
+        else
+        {
+            SceneManager.LoadScene("DeathSceneHard");
+        }
+
     }
 
     public int GetPlayerHealth()
@@ -60,4 +90,8 @@ public class GameManager : MonoBehaviour
         GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
         return objectsWithTag.Length == 0;
     }
+
+
+
+    
 }

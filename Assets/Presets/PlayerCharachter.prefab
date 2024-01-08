@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 2548117535116896790}
   - component: {fileID: 4112571718976598646}
   - component: {fileID: 2354232919126614724}
+  - component: {fileID: 8841472946119753264}
   - component: {fileID: 8142139086618396023}
   m_Layer: 3
   m_Name: PlayerCharachter
@@ -224,10 +225,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39280c807bd93dd4fa42a465b1b848b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPreFab: {fileID: 7469465866441868021, guid: f2c52caa62f9cc94f8b4ab6bbf8f8dbc, type: 3}
+  BulletPreFab: {fileID: 313468951220065281, guid: f2c52caa62f9cc94f8b4ab6bbf8f8dbc, type: 3}
   firepoint: {fileID: 4776497699822367713}
-  MoveSpeed: 7.5
+  MoveSpeed: 8
   BarrelRollSpeed: 360
+--- !u!114 &8841472946119753264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3171733816310719586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d390f96075113f145b63e663678676ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  mainCamera: {fileID: 166131724329042220, guid: b682efc9f44624b4383c2e0fcec99e63, type: 3}
 --- !u!222 &8142139086618396023
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -436,3 +451,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthText: {fileID: 0}
   scoreText: {fileID: 0}
+  sceneToLoad: 
+  mainmenu: 
