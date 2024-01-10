@@ -726,7 +726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthText: {fileID: 0}
   scoreText: {fileID: 0}
-  sceneToLoad: Level1
+  sceneToLoad: SampleScene
   mainmenu: MainMenu
 --- !u!4 &975996300
 Transform:
